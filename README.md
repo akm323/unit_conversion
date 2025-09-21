@@ -7,20 +7,20 @@ A simple and intuitive web application for converting between different units of
 ### Temperature Conversion
 - Convert Celsius to Fahrenheit
 - Interactive input field for temperature values
-- Real-time conversion with the click of a button
-- Formula reference: (C × 9/5) + 32
+- **Working conversion** with real-time calculations
+- Formula: (C × 9/5) + 32
 
 ### Weight Conversion
 - Convert Kilograms to Pounds
 - User-friendly input/output interface
-- Quick conversion functionality
-- Formula reference: kg × 2.205
+- **Functional conversion** with instant results
+- Formula: kg × 2.2
 
 ### Distance Conversion
 - Convert Kilometers to Miles
 - Clean and simple conversion interface
-- Instant results
-- Formula reference: km ÷ 1.609
+- **Live conversion** with accurate calculations
+- Formula: km × 0.62137
 
 ## 🚀 Getting Started
 
@@ -63,6 +63,7 @@ A simple and intuitive web application for converting between different units of
 unit_conversion/
 ├── index.html          # Main HTML file with all conversion functionality
 ├── style.css           # External CSS file with comprehensive styling
+├── script.js           # JavaScript file with conversion logic
 └── README.md           # Project documentation
 ```
 
@@ -70,7 +71,7 @@ unit_conversion/
 
 - **HTML5** - Semantic elements and structure
 - **CSS3** - External stylesheet with modern styling features
-- **JavaScript** - Conversion logic (to be implemented)
+- **JavaScript** - Interactive conversion logic with real-time calculations
 
 ## 📋 HTML5 Elements Demonstrated
 
@@ -94,21 +95,22 @@ unit_conversion/
 
 ## 🔧 Future Enhancements
 
-- [ ] Add JavaScript functionality for actual conversions
 - [ ] Implement reverse conversions (Fahrenheit to Celsius, etc.)
 - [ ] Add more unit types (area, volume, time)
 - [ ] Add input validation and error handling
 - [ ] Implement keyboard shortcuts for better accessibility
 - [ ] Add dark/light theme toggle
 - [ ] Add animation transitions for smoother user experience
+- [ ] Add conversion history feature
+- [ ] Implement decimal precision controls
 
 ## 📝 Conversion Formulas
 
 | Conversion Type | Formula |
 |----------------|---------|
 | Celsius to Fahrenheit | (C × 9/5) + 32 |
-| Kilograms to Pounds | kg × 2.205 |
-| Kilometers to Miles | km ÷ 1.609 |
+| Kilograms to Pounds | kg × 2.2 |
+| Kilometers to Miles | km × 0.62137 |
 
 ## 🤝 Contributing
 
@@ -139,6 +141,3 @@ This project is created as part of the IBM Fullstack Developer Certification pro
 
 For questions about this project or the IBM Fullstack Developer Certification, please refer to the course materials or IBM's official documentation.
 
----
-
-**Note**: This is a static HTML application. The conversion buttons currently don't perform actual calculations - this would require JavaScript implementation for full functionality.
